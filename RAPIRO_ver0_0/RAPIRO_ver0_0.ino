@@ -341,7 +341,7 @@ int getPose() {
           buf = readOneDigit();
           if(buf != ERR) {
             value += buf;
-            if(0 <= value || value < MAXSN) {
+            if(0 <= value && value < MAXSN) {
               while(!Serial.available()) {}
               if(Serial.read() == 'A') {
                 maximum = 180;
