@@ -1,3 +1,5 @@
+// by ShotaIshiwatari is licensed under the Creative Commons - Public Domain Dedication license.
+
 #include <Servo.h>
 
 #define SHIFT 7
