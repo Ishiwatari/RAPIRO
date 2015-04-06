@@ -246,6 +246,9 @@ void loop()  {
             Serial.print("0");
           }
         break;
+        case 'S':
+          digitalWrite(POWER, LOW);
+        break;
         default:
           Serial.print("#E");
         break;
